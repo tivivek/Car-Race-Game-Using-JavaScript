@@ -25,7 +25,7 @@ function keyDown(e) {
 function keyUp(e) {
     e.preventDefault();
     keys[e.key] = false;
-
+    
     // console.log(keys);
 }
 
