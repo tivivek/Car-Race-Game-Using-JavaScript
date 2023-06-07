@@ -1,7 +1,7 @@
 const score = document.querySelector('.score');
 const startScreen = document.querySelector('.startScreen');
 const gameArea = document.querySelector('.gameArea');
-const jumpsound = document.getElementById("jumpsound")
+// const jumpsound = document.getElementById("jumpsound");
 
 
 startScreen.addEventListener('click', start);
@@ -16,7 +16,7 @@ document.addEventListener('keyup', keyUp);
 function keyDown(e) {
     e.preventDefault();
     keys[e.key] = true;
-    jumpsound.play();
+//     jumpsound.play();
 
     // console.log(keys);
 }
